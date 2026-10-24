@@ -1,0 +1,7 @@
+# Core project (app.py, cli.py, tests.py): Python standard library only.
+# Note: app.py needs Tkinter (bundled with Python on Windows/macOS;
+#       on Debian/Ubuntu install it with:  sudo apt install python3-tk).
+#
+# Only needed for analysis.py (benchmark charts):
+matplotlib>=3.5
+numpy>=1.21

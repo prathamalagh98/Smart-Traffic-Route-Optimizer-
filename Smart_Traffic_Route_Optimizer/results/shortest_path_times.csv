@@ -1,0 +1,21 @@
+algorithm,V,E,time_ms,note
+dijkstra_heap,200,800,0.261,
+dijkstra_array,200,800,1.701,
+bellman_ford,200,800,0.667,6 passes
+bellman_ford_full,200,800,17.632,199 passes
+dijkstra_heap,400,1600,0.626,
+dijkstra_array,400,1600,6.71,
+bellman_ford,400,1600,2.279,9 passes
+bellman_ford_full,400,1600,88.914,399 passes
+dijkstra_heap,800,3200,1.364,
+dijkstra_array,800,3200,25.017,
+bellman_ford,800,3200,7.197,7 passes
+bellman_ford_full,800,3200,382.736,799 passes
+dijkstra_heap,1600,6400,3.375,
+dijkstra_array,1600,6400,104.075,
+bellman_ford,1600,6400,11.093,9 passes
+dijkstra_heap,3200,12800,7.434,
+dijkstra_array,3200,12800,405.727,
+bellman_ford,3200,12800,28.215,10 passes
+dijkstra_heap,6400,25600,21.209,
+bellman_ford,6400,25600,74.509,10 passes
